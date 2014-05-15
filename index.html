@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Socket test</title>
+	<script type="text/javascript" src="client.js"></script>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="client.css">
+</head>
+<body>
+<div class="start-screen screen">
+<h1>Connect</h1>
+<input id="nickname" placeholder="enter your nickname">
+<button id="connect">connect</button>
+</div>
+<div class="chat-screen screen">
+<h1>Chat&nbsp;<span id="connections">0</span><span>&nbsp;connections</span></h1>
+<h2>Users:</h2>
+<ul id="nicknames"></ul>
+<div id="output"></div>
+<input id="message" placeholder="enter your message" size="84">
+<button id="send">send</button>
+</div>
+<p>Example chat service with websockets</p>
+</body>
+</html>
